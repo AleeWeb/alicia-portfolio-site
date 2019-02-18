@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { Container} from "reactstrap";
+import { Nav } from './components/Nav';
+import { Header } from './components/Header';
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <h1>My portfolio in the making!</h1>
-      </div>
+      <Container>
+                <Nav />
+
+                <Header />
+</Container>
     );
   }
 }
