@@ -5,7 +5,7 @@ export class Nav extends React.Component {
   render() {
     return (
       
-      <div className="container" id="top">
+      <div id="top">
         <nav className="navbar navbar-expand-lg navbar-trans">
         {/*
           <a className="navbar-brand">
@@ -41,23 +41,23 @@ export class Nav extends React.Component {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul className="main-nav navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item">
                 <Scrollchor to="#code" className="nav-link">
-                  Code Projects
+                  Code 
                   </Scrollchor>
               </li>
 
               <li className="nav-item">
                 <Scrollchor to="#design" className="nav-link">
-                 Design Samples
+                 Design 
                   </Scrollchor>
               </li>
 
 
               <li className="nav-item">
               <Scrollchor to="#skills" className="nav-link">
-                  My Toolkit
+                  Tools
                   </Scrollchor>
               </li>
               <li className="nav-item">

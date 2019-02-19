@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+* {
+  font-family: 'PT Sans', sans-serif; }
+
+.main-nav {
+  position: relative;
+  left: 17%; }
+
+.main-nav a {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #484242; }
+
+.header-txtwrap {
+  position: relative;
+  left: 19%;
+  top: 100px; }
+
+.main-header {
+  font-weight: 700;
+  color: #000; }
+
+.sub-header {
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #000; }
+
+.small-header {
+  color: #767373; }
+
+.laptopsvg {
+  position: relative;
+  top: -100px; }
+
+.banner-bg {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none; }
+
+.right-shape {
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.left-shape {
+  float: left;
+  position: absolute;
+  left: 0; }
+
+@media (max-width: 576px) {
+  .right-shape {
+    visibility: hidden; }
+  .laptopsvg {
+    position: relative;
+    top: 15px;
+    left: 7px; } }
