@@ -5,11 +5,10 @@
 .main-nav {
   position: relative;
   left: 17%; }
-
-.main-nav a {
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #484242; }
+  .main-nav a {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #484242; }
 
 .header-txtwrap {
   position: relative;
@@ -53,5 +52,17 @@
     visibility: hidden; }
   .laptopsvg {
     position: relative;
-    top: 15px;
-    left: 7px; } }
+    top: 15px; }
+  .header-txtwrap {
+    left: 32%;
+    bottom: 10%; } }
+
+@media (min-width: 1600px) {
+  .left-shape, .right-shape {
+    height: 60%; }
+  .main-header {
+    font-size: 2em; }
+  .sub-header {
+    font-size: 1.5em; }
+  .small-header {
+    font-size: 1.4em; } }
