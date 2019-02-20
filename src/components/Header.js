@@ -5,12 +5,9 @@ import rightShape from '../images/header_rightblob.png';
 import leftShape from '../images/header_leftblob.png';
 
 
-
-export class Header extends React.Component {
-    render() {
-        return (
+const Header = () => {
+    return (
             <div>
-
                 <img src={leftShape} className="left-shape" alt="Left Shape" />
 
                 <Row>
@@ -27,13 +24,10 @@ export class Header extends React.Component {
 
                 </Row>
 
-
                 <img src={rightShape} className="right-shape" alt="Right Shape" />
 
-
-
             </div>
-
-        );
-    }
+    )
 }
+
+export default Header
