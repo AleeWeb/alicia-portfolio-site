@@ -3,6 +3,8 @@
 *
   font-family: 'PT Sans', sans-serif
 
+// Nav 
+
 .main-nav
   position: relative
   left: 17%
@@ -11,6 +13,12 @@
     font-weight: 700
     color: #484242
 
+
+// Header/Banner 
+
+.header 
+  min-height: 600px
+  
 .header-txtwrap
   position: relative
   left: 19%
@@ -28,14 +36,12 @@
 .small-header
   color: #767373
 
+
+// Header/Banner Images
+
 .laptopsvg
   position: relative
   top: -100px
-
-.banner-bg
-  position: absolute
-  z-index: 2
-  pointer-events: none
 
 .right-shape
   float: right
@@ -48,6 +54,7 @@
   position: absolute
   left: 0
 
+// Potrait Mobile tweaks
 @media (max-width: 576px)
   .right-shape
     visibility: hidden
@@ -58,6 +65,7 @@
     left: 32%
     bottom: 10%
 
+// Large Screen tweaks
 @media (min-width: 1600px)
   .left-shape, .right-shape
     height: 60%
@@ -67,3 +75,65 @@
     font-size: 1.5em
   .small-header
     font-size: 1.4em
+
+
+
+// Services Summary Section
+
+.summary-wrap
+  min-height: 700px
+
+.block-wrap
+  margin: 0 auto
+  margin-top: 20%;
+
+.block-headline
+  color: #330099
+
+.icon-blocks
+  opacity: .7
+
+.block-text
+  color: #484848;
+
+
+// Portfolio sections
+
+.card-wrap
+  position: relative
+  min-height: 600px
+  padding: 10px 
+  overflow: hidden 
+
+#slantbg
+  z-index: -100
+  position: absolute
+  width: 100%
+  min-height: 600px
+  background: linear-gradient(45deg,#5049E3 1%,#ef37ee)!important
+  overflow: hidden 
+  -webkit-transform: skewY(-12deg)
+  transform: skewY(-12deg)
+  -webkit-transform-origin: 0
+  transform-origin: 0
+  background: #f4f7fc
+
+
+
+.card 
+  margin-bottom: 10px
+  height: 300px
+
+.card-links
+  color: #000
+
+.card-main-title 
+  font-weight: 400
+
+.card-text
+  color: #404040
+  
+// Code div above (code cards)
+
+#code 
+  height: 700px

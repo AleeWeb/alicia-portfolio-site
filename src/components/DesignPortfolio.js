@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-const Footer = ( props ) => {
+const DesignPortfolio = ( props ) => {
     return(
         <div id="design">
-            <p>Footer</p>
+            <p>Temp</p>
             </div>
     )
 
 }
 
-export default Footer
+export default DesignPortfolio

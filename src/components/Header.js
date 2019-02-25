@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import laptop from '../images/header_laptop.svg';
 import rightShape from '../images/header_rightblob.png';
 import leftShape from '../images/header_leftblob.png';
@@ -7,7 +7,8 @@ import leftShape from '../images/header_leftblob.png';
 
 const Header = () => {
     return (
-            <div>
+        <Container>
+            <div className="Header">
                 <img src={leftShape} className="left-shape" alt="Left Shape" />
 
                 <Row>
@@ -27,6 +28,7 @@ const Header = () => {
                 <img src={rightShape} className="right-shape" alt="Right Shape" />
 
             </div>
+        </Container>
     )
 }
 

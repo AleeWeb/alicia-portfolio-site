@@ -1,2 +1,3 @@
 
-Hello, this is my React portfolio! Redesign in progress. I'm taking a new design direction from the Jun 5, 2018 version.
+
+React portfolio with new UI design, styled components and more!

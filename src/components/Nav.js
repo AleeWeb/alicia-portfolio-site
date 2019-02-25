@@ -42,6 +42,14 @@ export class Nav extends React.Component {
 
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="main-nav navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+            <li className="nav-item">
+                <Scrollchor to="#summary" className="nav-link">
+                  What I Offer
+                  </Scrollchor>
+              </li>
+
               <li className="nav-item">
                 <Scrollchor to="#code" className="nav-link">
                   Code 
@@ -54,12 +62,6 @@ export class Nav extends React.Component {
                   </Scrollchor>
               </li>
 
-
-              <li className="nav-item">
-              <Scrollchor to="#skills" className="nav-link">
-                  Tools
-                  </Scrollchor>
-              </li>
               <li className="nav-item">
               <Scrollchor to="#me" className="nav-link">
                   About Me
