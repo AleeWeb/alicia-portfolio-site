@@ -1,13 +1,13 @@
 import React from 'react';
+import { Container } from "reactstrap";
 
 
-const Footer = ( props ) => {
+const Footer = () => {
     return(
-        <div id="design">
-            <p>Footer</p>
-            </div>
+        <Container id="design">
+           
+            </Container>
     )
-
 }
 
 export default Footer

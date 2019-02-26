@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700")
 
+
+//---- Variables ----//
+
+$black: #000
+$lightgrey: #767373
+$darkgrey: #484242
+$darkpurple: #330099
+
+//---- Variables ----//
+
+
+// Select All
 *
   font-family: 'PT Sans', sans-serif
 
-// Nav 
+
+//---- Nav ----//
 
 .main-nav
   position: relative
@@ -11,10 +24,10 @@
   a
     font-size: 1.2em
     font-weight: 700
-    color: #484242
+    color: $darkgrey
 
 
-// Header/Banner 
+//---- Header/Banner ----//
 
 .header 
   min-height: 600px
@@ -26,15 +39,21 @@
 
 .main-header
   font-weight: 700
-  color: #000
+  color: $black
 
 .sub-header
   font-weight: 400
   font-size: 1.3em
-  color: #000
+  color: $darkpurple
+
+.banner-subheader
+  font-weight: 400
+  font-size: 1.3em
+  color: $black
 
 .small-header
-  color: #767373
+  color: $lightgrey
+
 
 
 // Header/Banner Images
@@ -77,18 +96,17 @@
     font-size: 1.4em
 
 
-
-// Services Summary Section
+//---- Services Summary Section ----//
 
 .summary-wrap
   min-height: 700px
 
-.block-wrap
+.inner-block-wrap
   margin: 0 auto
   margin-top: 20%;
 
 .block-headline
-  color: #330099
+  color: $darkpurple
 
 .icon-blocks
   opacity: .7
@@ -97,20 +115,32 @@
   color: #484848;
 
 
-// Portfolio sections
+
+//----  Code section ----//
+
+#code 
+  position: relative
+  min-height: 1200px
+
+.featured-header
+  font-weight: bold
+
+.featured-img-thumb
+  position: relative
+  width: 100%
+  border-radius: 5px
 
 .card-wrap
   position: relative
   min-height: 600px
-  padding: 10px 
+  padding: 12px 
   overflow: hidden 
 
 #slantbg
-  z-index: -100
   position: absolute
   width: 100%
   min-height: 600px
-  background: linear-gradient(45deg,#5049E3 1%,#ef37ee)!important
+  background: linear-gradient(47deg,#5049E3 1%,#ef37ee) !important
   overflow: hidden 
   -webkit-transform: skewY(-12deg)
   transform: skewY(-12deg)
@@ -118,14 +148,19 @@
   transform-origin: 0
   background: #f4f7fc
 
+.row-wrap
+  position: relative
+  margin-top: 40px
+  margin-bottom: 200px
 
 
+// 
 .card 
   margin-bottom: 10px
   height: 300px
 
 .card-links
-  color: #000
+  color: $black
 
 .card-main-title 
   font-weight: 400
@@ -133,7 +168,23 @@
 .card-text
   color: #404040
   
-// Code div above (code cards)
 
-#code 
-  height: 700px
+//---- Coming Soon ----//
+
+.coming-soon
+  color: $lightgrey
+  text-align: center
+
+
+
+//---- Design ----//
+
+#design
+  min-height: 100px
+
+
+
+//---- About Me ----//
+
+
+//---- Footer ----//

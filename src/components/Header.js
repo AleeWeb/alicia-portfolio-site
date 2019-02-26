@@ -15,7 +15,7 @@ const Header = () => {
 
                     <Col className="header-txtwrap" xs="8" sm="6" lg="5">
                         <h2 className="main-header">Alicia Alexander</h2>
-                        <h3 className="sub-header">Software Developer and UI/UX Designer</h3>
+                        <h3 className="banner-subheader">Software Developer and UI/UX Designer</h3>
                         <h5 className="small-header">I love to design and code apps!</h5>
                     </Col>
 

@@ -25,6 +25,11 @@
 .sub-header {
   font-weight: 400;
   font-size: 1.3em;
+  color: #330099; }
+
+.banner-subheader {
+  font-weight: 400;
+  font-size: 1.3em;
   color: #000; }
 
 .small-header {
@@ -68,7 +73,7 @@
 .summary-wrap {
   min-height: 700px; }
 
-.block-wrap {
+.inner-block-wrap {
   margin: 0 auto;
   margin-top: 20%; }
 
@@ -81,24 +86,40 @@
 .block-text {
   color: #484848; }
 
+#code {
+  position: relative;
+  min-height: 1200px; }
+
+.featured-header {
+  font-weight: bold; }
+
+.featured-img-thumb {
+  position: relative;
+  width: 100%;
+  border-radius: 5px; }
+
 .card-wrap {
   position: relative;
   min-height: 600px;
-  padding: 10px;
+  padding: 12px;
   overflow: hidden; }
 
 #slantbg {
-  z-index: -100;
   position: absolute;
   width: 100%;
   min-height: 600px;
-  background: linear-gradient(45deg, #5049E3 1%, #ef37ee) !important;
+  background: linear-gradient(47deg, #5049E3 1%, #ef37ee) !important;
   overflow: hidden;
   -webkit-transform: skewY(-12deg);
   transform: skewY(-12deg);
   -webkit-transform-origin: 0;
   transform-origin: 0;
   background: #f4f7fc; }
+
+.row-wrap {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 200px; }
 
 .card {
   margin-bottom: 10px;
@@ -113,5 +134,9 @@
 .card-text {
   color: #404040; }
 
-#code {
-  height: 700px; }
+.coming-soon {
+  color: #767373;
+  text-align: center; }
+
+#design {
+  min-height: 100px; }

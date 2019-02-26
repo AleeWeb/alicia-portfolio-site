@@ -1,11 +1,11 @@
 import React from 'react';
+import { Container } from "reactstrap";
 
-
-const DesignPortfolio = ( props ) => {
+const DesignPortfolio = () => {
     return(
-        <div id="design">
-            <p>Temp</p>
-            </div>
+        <Container id="design">
+            <h2 className="coming-soon">More Coming Soon!</h2>
+            </Container>
     )
 
 }

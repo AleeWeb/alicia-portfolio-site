@@ -23,14 +23,14 @@ const services = [
         id: 1,
         headline: 'User Interface',
         icon: UIcon,
-        summary: 'For User Interface design, I create wireframe, mock-ups and color color palettes.'
+        summary: 'To capture the apps purpose and visuals, I create wireframe and mock-ups.'
     },
 
     {
         id: 2,
         headline: 'User Experience',
         icon: UXicon,
-        summary: 'I create interactive prototypes and animations to capture User Experience.'
+        summary: 'User research, interactive prototypes and animations are my tools for User Experience.'
     },
     {
         id: 3,
@@ -45,9 +45,9 @@ const ServiceBlocks = (props) => {
 
         return (
 
-            <Col sm="4" key={service.id}>
+            <Col sm="4" key={service.id} className="hvr-grow">
                 <Block>
-                    <div className="block-wrap">
+                    <div className="inner-block-wrap">
                         <h4 className="block-headline">{service.headline}</h4>
 
                         <img className="icon-blocks hvr-wobble-skew" src={service.icon} alt="Service Icon" />
@@ -69,7 +69,6 @@ const ServiceBlocks = (props) => {
                 <div className="summary-wrap" id="summary">
                     <Row>
                         {serviceList}
-
                     </Row>
                 </div>
             </Container>

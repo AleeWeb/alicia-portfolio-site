@@ -1,42 +1,41 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Row, Col } from "reactstrap";
+import JobHR from '../images/cardthumb_djangohr.png';
+import TraveBuddy from '../images/cardthumb_travelbuddy.png';
+import CustomerRest from '../images/cardthumb_customerapi.png';
+import OpenWeather from '../images/cardthumb_openweather.png';
+
 
 const cards = [
   {
     id: 1,
-    imageSrc:
-      "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-    link: "https://product-tech-reviews.herokuapp.com/",
-    title: "React Fetch & Django RESTFramework",
-    description: "Some quick example text for description.",
-    textButton: "Contact"
+    imageSrc: JobHR,
+    link: "https://django-hr-crudapp.herokuapp.com/",
+    title: "Django H.R. Job Management App",
+    description: "This is the basic C.R.U.D. app for managing job postings."
   },
   {
     id: 2,
-    imageSrc:
-      "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-    link: "https://django-hr-crudapp.herokuapp.com/",
-    title: "Django C.R.U.D. HR Job Tool App",
-    description: "Some quick example text for description.",
-    textButton: "Contact"
+    imageSrc: TraveBuddy,
+    link: "https://a-travel-buddy.herokuapp.com/accounts/login/?next=/travelhome",
+    title: "Django All-Auth Travel Dashboard Demo",
+    description: "User login throuhg Google or GitHub and manage trip plans."
+
   },
   {
     id: 3,
-    imageSrc:
-      "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-    link: "https://apps.planning.maryland.gov/reinvestmd/",
-    title: "MD Dept. of Planning ToolBox",
-    description: "Some quick example text for description.",
-    textButton: "Contact"
+    imageSrc: CustomerRest,
+    link: "https://restapi-customer-log.herokuapp.com/customers/",
+    title: "Django REST API Customer Log Demo",
+    description: "This is custom API data that I created!"
   },
   {
     id: 4,
-    imageSrc:
-      "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-    title: "Text",
-    description: "Some quick example text for description.",
-    textButton: "Contact"
+    imageSrc: OpenWeather,
+      link: "https://codepen.io/Aleeweb/full/qjYRBN/",
+    title: "Open Weather Map API web app",
+    description: "Converts temperature from Celsius to Fahrenheit. getJSON used to retrieve data."
   }
 ];
 
@@ -48,7 +47,7 @@ const CodeCards = (props) => {
       <Col sm="3" key={card.id}>
         <a href={card.link} target="_blank" rel="noopener noreferrer" className="card-links">
           <Card className="hvr-shadow">
-            <CardImg top width="100%" src={card.imageSrc} alt="Card image" />
+            <CardImg top width="100%" src={card.imageSrc} alt="Card image" className="hvr-shadow" />
             <CardBody>
               <CardTitle className="card-main-title">{card.title}</CardTitle>
               <CardText className="card-text">{card.description}</CardText>

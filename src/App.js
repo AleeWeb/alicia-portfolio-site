@@ -8,6 +8,7 @@ import DesignPortfolio from './components/DesignPortfolio';
 import Footer from './components/Footer';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -22,9 +23,9 @@ class App extends Component {
 
         <CodeCards />
 
-        <DesignPortfolio />
+       <DesignPortfolio /> 
 
-        <Footer />
+      <Footer />
 
       </>
 
