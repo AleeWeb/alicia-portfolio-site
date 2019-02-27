@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6d3fa9b2a95145a6898d",
-    "url": "/alicia-portfolio-site/static/css/main.abf05ecc.chunk.css"
+    "revision": "f8dfa717b8f6e1cba415",
+    "url": "/alicia-portfolio-site/static/css/main.7a0d2333.chunk.css"
   },
   {
-    "revision": "6d3fa9b2a95145a6898d",
-    "url": "/alicia-portfolio-site/static/js/main.6d3fa9b2.chunk.js"
+    "revision": "f8dfa717b8f6e1cba415",
+    "url": "/alicia-portfolio-site/static/js/main.f8dfa717.chunk.js"
   },
   {
     "revision": "1ad8b546515e0a5e5a08",
@@ -24,24 +24,24 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/header_laptop.e065c0eb.svg"
   },
   {
-    "revision": "fe52409987a7dfdf1fcd1f49c2a3af86",
-    "url": "/alicia-portfolio-site/static/media/header_leftblob.fe524099.png"
+    "revision": "5f98dc1eb09417e6484336881604bd63",
+    "url": "/alicia-portfolio-site/static/media/header_rightblob1.5f98dc1e.png"
   },
   {
-    "revision": "d23b3b7932f7053da9df32495f33db51",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_djangohr.d23b3b79.png"
+    "revision": "66d8f4a3cbab21cee126d9f704b58163",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_djangohr.66d8f4a3.png"
   },
   {
-    "revision": "e2393efd6390195fd179dbe3112ca1a5",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_travelbuddy.e2393efd.png"
+    "revision": "7eb8f1bd792305cbd42289c5b06c3e48",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_travelbuddy1.7eb8f1bd.png"
   },
   {
     "revision": "8e07cdf07d00334e8bdd1bfd984435d7",
     "url": "/alicia-portfolio-site/static/media/cardthumb_customerapi.8e07cdf0.png"
   },
   {
-    "revision": "456eb3160165d7c05e9a2bdda08c9e93",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_openweather.456eb316.png"
+    "revision": "ce8ab8ba7a53073aa4696727f76003af",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_openweather.ce8ab8ba.png"
   },
   {
     "revision": "b512c62adf16c2d04c1d977f74f8ddad",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/mdptoolbox.a759390d.gif"
   },
   {
-    "revision": "4204bb48d0c4c732d30dc1516200a328",
-    "url": "/alicia-portfolio-site/static/media/thumb_avesis_home.4204bb48.jpg"
+    "revision": "4a70cf9f8f0fc6fc00f33f090c9de68c",
+    "url": "/alicia-portfolio-site/static/media/thumb_avesis_home.4a70cf9f.jpg"
   },
   {
-    "revision": "80a0bd31d8afeaa01319faa52af02560",
-    "url": "/alicia-portfolio-site/static/media/thumb_waha.80a0bd31.jpg"
+    "revision": "cee653251237c815f0ba9c34cefa0ffe",
+    "url": "/alicia-portfolio-site/static/media/thumb_waha.cee65325.jpg"
   },
   {
     "revision": "9dab3b0fc92e74b7cfe5453c7d814a7e",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/thumb_members.58501a10.jpg"
   },
   {
-    "revision": "729a6c29e268158802dc464339832cc9",
-    "url": "/alicia-portfolio-site/static/media/design_avesis_home.729a6c29.jpg"
+    "revision": "ad7fdc59d0796b766a88eea2f39143dd",
+    "url": "/alicia-portfolio-site/static/media/design_avesis_home.ad7fdc59.jpg"
   },
   {
-    "revision": "d2fe913eb68fd438e73ee4c36b5a8d5d",
-    "url": "/alicia-portfolio-site/static/media/design_waha.d2fe913e.jpg"
+    "revision": "72d3e2c3bf2d569f0c33f4a9939cd2d0",
+    "url": "/alicia-portfolio-site/static/media/design_waha.72d3e2c3.jpg"
   },
   {
     "revision": "cab9bfead1122e040887a401fe0c072c",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "eda7d6fa368947a92cddd1a36fe13e0c",
+    "revision": "81d6ef14c7918eb9ea20f466d64d597d",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
