@@ -7,7 +7,13 @@ import CodePortfolio from './components/CodePortfolio';
 import DesignPortfolio from './components/DesignPortfolio';
 import Footer from './components/Footer';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faGlobeAmericas, faCode } from '@fortawesome/free-solid-svg-icons'
 
+
+
+library.add(fab, faGlobeAmericas, faCode)
 
 class App extends Component {
   render() {
