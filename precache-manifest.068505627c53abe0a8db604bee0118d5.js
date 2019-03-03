@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "1853d634bfb040024b27",
-    "url": "/alicia-portfolio-site/static/css/main.e362237d.chunk.css"
+    "revision": "779bbdd0fdb232ae0980",
+    "url": "/alicia-portfolio-site/static/css/main.586cba7f.chunk.css"
   },
   {
-    "revision": "1853d634bfb040024b27",
-    "url": "/alicia-portfolio-site/static/js/main.1853d634.chunk.js"
+    "revision": "779bbdd0fdb232ae0980",
+    "url": "/alicia-portfolio-site/static/js/main.779bbdd0.chunk.js"
   },
   {
     "revision": "1ad8b546515e0a5e5a08",
     "url": "/alicia-portfolio-site/static/js/runtime~main.1ad8b546.js"
   },
   {
-    "revision": "4f3078c675f5d71c29a7",
-    "url": "/alicia-portfolio-site/static/css/2.abae74bc.chunk.css"
+    "revision": "90e878c2969342615891",
+    "url": "/alicia-portfolio-site/static/css/2.df79925d.chunk.css"
   },
   {
-    "revision": "4f3078c675f5d71c29a7",
-    "url": "/alicia-portfolio-site/static/js/2.4f3078c6.chunk.js"
+    "revision": "90e878c2969342615891",
+    "url": "/alicia-portfolio-site/static/js/2.90e878c2.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_avesis_home.ad7fdc59.jpg"
   },
   {
-    "revision": "72d3e2c3bf2d569f0c33f4a9939cd2d0",
-    "url": "/alicia-portfolio-site/static/media/design_waha.72d3e2c3.jpg"
+    "revision": "838b4b605718e39fc35bdedf5ba016ad",
+    "url": "/alicia-portfolio-site/static/media/design_waha.838b4b60.jpg"
   },
   {
     "revision": "cab9bfead1122e040887a401fe0c072c",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "fe2d57d5fcfd847591f3267b914d4fee",
+    "revision": "a80981583acd8f3deb709d0d9de0f442",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
