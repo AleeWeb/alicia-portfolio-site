@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "dd6de3e78ec57007698d",
-    "url": "/alicia-portfolio-site/static/css/main.18804adb.chunk.css"
+    "revision": "c4be0eb9388914b1c76b",
+    "url": "/alicia-portfolio-site/static/css/main.61381d32.chunk.css"
   },
   {
-    "revision": "dd6de3e78ec57007698d",
-    "url": "/alicia-portfolio-site/static/js/main.dd6de3e7.chunk.js"
+    "revision": "c4be0eb9388914b1c76b",
+    "url": "/alicia-portfolio-site/static/js/main.c4be0eb9.chunk.js"
   },
   {
     "revision": "1ad8b546515e0a5e5a08",
     "url": "/alicia-portfolio-site/static/js/runtime~main.1ad8b546.js"
   },
   {
-    "revision": "90e878c2969342615891",
+    "revision": "e700540d48f6f7bbaa19",
     "url": "/alicia-portfolio-site/static/css/2.df79925d.chunk.css"
   },
   {
-    "revision": "90e878c2969342615891",
-    "url": "/alicia-portfolio-site/static/js/2.90e878c2.chunk.js"
+    "revision": "e700540d48f6f7bbaa19",
+    "url": "/alicia-portfolio-site/static/js/2.e700540d.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -68,6 +68,18 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/thumb_members.58501a10.jpg"
   },
   {
+    "revision": "dfbbf30c986d46aab3749f4c741831fd",
+    "url": "/alicia-portfolio-site/static/media/me_bluetop.dfbbf30c.jpg"
+  },
+  {
+    "revision": "ac0d2a47072e858e562d2b96b4610425",
+    "url": "/alicia-portfolio-site/static/media/me_travels.ac0d2a47.jpg"
+  },
+  {
+    "revision": "12cea84a890daea823c0268990cb47d5",
+    "url": "/alicia-portfolio-site/static/media/me_amywmural.12cea84a.jpg"
+  },
+  {
     "revision": "ad7fdc59d0796b766a88eea2f39143dd",
     "url": "/alicia-portfolio-site/static/media/design_avesis_home.ad7fdc59.jpg"
   },
@@ -84,7 +96,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "ebe961ad5b0ca88b378d5eb83694cf5e",
+    "revision": "b36369dcfcfd3fd9fa4f101adc655f04",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
