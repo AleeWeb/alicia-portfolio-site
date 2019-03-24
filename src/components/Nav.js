@@ -1,76 +1,90 @@
-import React from "react";
+import React from 'react';
+import {
+  Container,
+  Row,
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem
+} from 'reactstrap';
 import Scrollchor from 'react-scrollchor';
 
-export class Nav extends React.Component {
+const mainNav = {
+  position: 'relative',
+  float: 'left',
+  top: '30px',
+  zIndex: '1',
+  left: '218px',
+  fontSize: '1.2em',
+  fontWeight: '700',
+  padding: '.5rem'
+};
+
+const navLink = {
+  color: '#484242',
+  padding: '10px',
+  textDecoration: 'none'
+}
+
+const toggler = {
+  border: 'none'
+}
+
+
+export class TopNav extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
   render() {
     return (
-      
-      <div id="top">
-        <nav className="navbar navbar-expand-lg navbar-trans">
-        {/*
-          <a className="navbar-brand">
-             Future logo 
-          </a>
-          */}
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 30 30"
-              width="30"
-              height="30"
-              focusable="false"
-            >
-              <title>Menu</title>
-              <path
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                d="M4 7h22M4 15h22M4 23h22"
-              />
-            </svg>
-          </button>
+      <Container>
+        <Row>
+          <Navbar style={mainNav} light expand="md">
+            <NavbarToggler onClick={this.toggle} style={toggler} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
 
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="main-nav navbar-nav mr-auto mt-2 mt-lg-0">
-
-
-            <li className="nav-item">
-                <Scrollchor to="#summary" className="nav-link">
-                  What I Offer
+                <NavItem>
+                  <Scrollchor to="#summary" style={navLink}>
+                    What I Offer
                   </Scrollchor>
-              </li>
+                </NavItem>
 
-              <li className="nav-item">
-                <Scrollchor to="#code" className="nav-link">
-                  Code 
+                <NavItem>
+                  <Scrollchor to="#code" style={navLink}>
+                    Code
                   </Scrollchor>
-              </li>
+                </NavItem>
 
-              <li className="nav-item">
-                <Scrollchor to="#design" className="nav-link">
-                 Design 
+                <NavItem>
+                  <Scrollchor to="#design" style={navLink}>
+                    Design
                   </Scrollchor>
-              </li>
+                </NavItem>
 
-              <li className="nav-item">
-              <Scrollchor to="#me" className="nav-link">
-                  About Me
+                <NavItem>
+                  <Scrollchor to="#me" style={navLink}>
+                    About Me
                   </Scrollchor>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+                </NavItem>
+
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </Row>
+      </Container>
     );
   }
 }
+

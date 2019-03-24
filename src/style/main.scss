@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+html, body {
+  height: 100%;
+}
+
+* {
+  font-family: "PT Sans", sans-serif;
+  a {
+    text-decoration: none;
+  }
+}
+
+// Sub headline for body sections
+
+.sub-header {
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #309;
+}
+
+
+// Code Portfolio Section
+
+#code {
+  position: relative;
+  min-height: 1200px;
+}
+
+.featured-header {
+  font-weight: bold;
+}
+
+.featured-img-thumb {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+// Code Sample in Cards Section
+
+.card-wrap {
+  position: relative;
+  min-height: 800px;
+  padding: 12px;
+  overflow: hidden;
+}
+
+#slantbg {
+  position: absolute;
+  width: 100%;
+  min-height: 600px;
+  background: linear-gradient(47deg, #5049e3 1%, #ef37ee) !important;
+  overflow: hidden;
+  -webkit-transform: skewY(-12deg);
+  transform: skewY(-12deg);
+  -webkit-transform-origin: 0;
+  transform-origin: 0;
+  background: #f4f7fc;
+}
+
+.row-wrap {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+.card {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.card-links {
+  color: #000;
+}
+
+.card-main-title {
+  font-weight: 400;
+}
+
+.card-text {
+  color: #404040;
+}
+
+// Design portfolio section
+#design {
+  min-height: 690px;
+  margin-bottom: 80px;
+}
+
+.design-header {
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  top: -210px;
+  margin-bottom: 30px;
+}
+
+.designpic {
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#row2-design {
+  margin-top: 40px;
+  position: relative;
+  right: 20px;
+  margin-left: 30px;
+}
+
+.icon-four {
+  text-align: center;
+}
+
+.temp-wrap {
+  position: relative;
+  top: 120px;
+}
+
+// About Me
+
+#me {
+  min-height: 600px;
+  margin-top: 20px;
+}
+
+.carousel {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+.w-100 {
+  width: auto !important; /* The default bootstrap causes carousel to jump in animation */
+}
+
+.carousel-caption {
+  text-shadow: 0px 2px 2px rgba(18, 17, 17, 0.9)
+}
+
+// Footer
+
+.footer-icon {
+  position: relative;
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  padding-top: 20px;
+  background: linear-gradient(181deg, #ef37ee, #5049e3, #00f);
+  background-size: 600% 600%;
+  -webkit-animation: FooterBanner 15s ease infinite;
+  -moz-animation: FooterBanner 15s ease infinite;
+  animation: FooterBanner 15s ease infinite;
+  a {
+    color: #fff;
+    &:hover {
+      color: yellow;
+    }
+  }
+}
+
+@-webkit-keyframes FooterBanner {
+  0% {
+    background-position: 0% 92%;
+  }
+
+  50% {
+    background-position: 100% 9%;
+  }
+
+  100% {
+    background-position: 0% 92%;
+  }
+}
+
+
+@-moz-keyframes FooterBanner {
+  0% {
+    background-position: 0% 92%;
+  }
+
+  50% {
+    background-position: 100% 9%;
+  }
+
+  100% {
+    background-position: 0% 92%;
+  }
+}
+
+
+@keyframes FooterBanner {
+  0% {
+    background-position: 0% 92%;
+  }
+
+  50% {
+    background-position: 100% 9%;
+  }
+
+  100% {
+    background-position: 0% 92%;
+  }
+}
+
+
+.coming-soon {
+  position: relative;
+  color: #767373;
+  text-align: center;
+}
+
+
+// Large screen tweaks
+@media (min-width: 1600px) {
+  .left-shape, .right-shape {
+    height: 60%;
+  }
+  .main-header {
+    font-size: 2em;
+  }
+  .sub-header {
+    font-size: 1.5em;
+  }
+  .small-header {
+    font-size: 1.4em;
+  }
+
+  #slantbg {
+    min-height: 700px;
+  }
+
+  .card {
+
+  height: auto;
+  width: 100%;
+  }
+
+  .card-title {
+    margin-bottom: 0 !important;
+  }
+  .card-text {
+    font-size: 0.64em;
+  }
+}
+
+// Mobile portrait 
+@media (max-width: 576px) {
+  .right-shape {
+    visibility: hidden;
+  }
+  .laptopsvg {
+    position: relative;
+    margin-top: 89px;
+  }
+  #code {
+    position: relative;
+    top: 140px;
+    height: 1300px;
+  }
+  #slantbg {
+    height: 1400px;
+  }
+  .card-body {
+    font-size: 0.87em;
+  }
+  .card-wrap {
+    min-height: 1500px;
+  }
+  .designpic {
+    margin-bottom: 20px;
+  }
+  .row-wrap {
+    margin-bottom: 40px !important;
+  }
+
+  .w-100 {
+    width: 100%!important; /* The default bootstrap causes carousel to jump in animation */
+  }
+}

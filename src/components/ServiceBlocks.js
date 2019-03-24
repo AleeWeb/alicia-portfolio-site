@@ -6,7 +6,6 @@ import UXicon from '../images/ux_click.png';
 import Codeicon from '../images/code.png';
 
 
-
 const Block = styled.div`
     width: 100%;
     height: 373px;
@@ -17,6 +16,30 @@ const Block = styled.div`
     border-radius: 5px;
     margin-bottom: 30px;
 `;
+
+const summaryWrap = {
+    position: 'relative',
+    minHeight: '700px'
+}
+
+const innerBlockWrap = {
+    margin: '0 auto',
+    marginTop: '20%'
+}
+
+
+const blockHeadline = {
+    color: '#330099',
+}
+
+const iconBlocks = {
+    opacity: '.7'
+}
+
+const blockText = {
+    color: '#484848'
+}
+
 
 const services = [
     {
@@ -44,15 +67,14 @@ const ServiceBlocks = (props) => {
     const serviceList = services.map(service => {
 
         return (
-
             <Col sm="4" key={service.id} className="hvr-grow">
                 <Block>
-                    <div className="inner-block-wrap">
-                        <h4 className="block-headline">{service.headline}</h4>
+                    <div style={innerBlockWrap}>
+                        <h4 style={blockHeadline}>{service.headline}</h4>
 
-                        <img className="icon-blocks hvr-wobble-skew" src={service.icon} alt="Service Icon" />
+                        <img style={iconBlocks} className="hvr-wobble-skew" src={service.icon} alt="Service Icon" />
 
-                        <p className="block-text">{service.summary}</p>
+                        <p style={blockText}>{service.summary}</p>
                     </div>
                 </Block>
             </Col>
@@ -64,19 +86,15 @@ const ServiceBlocks = (props) => {
 
     return (
         <>
-
             <Container>
-                <div className="summary-wrap" id="summary">
+                <div style={summaryWrap} id="summary">
                     <Row>
                         {serviceList}
                     </Row>
                 </div>
             </Container>
-
         </>
-
     )
-
 }
 
 export default ServiceBlocks

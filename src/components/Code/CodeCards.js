@@ -1,10 +1,11 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Row, Col } from "reactstrap";
-import JobHR from '../images/cardthumb_djangohr.png';
-import TraveBuddy from '../images/cardthumb_travelbuddy.png';
-import CustomerRest from '../images/cardthumb_customerapi.png';
-import OpenWeather from '../images/cardthumb_openweather.png';
+import JobHR from '../../images/cardthumb_djangohr.png';
+import TraveBuddy from '../../images/cardthumb_travelbuddy1.png';
+import CustomerRest from '../../images/cardthumb_customerapi.png';
+import OpenWeather from '../../images/cardthumb_openweather.png';
+import Flip from 'react-reveal/Flip';
 
 
 const cards = [
@@ -33,7 +34,7 @@ const cards = [
   {
     id: 4,
     imageSrc: OpenWeather,
-      link: "https://codepen.io/Aleeweb/full/qjYRBN/",
+    link: "https://codepen.io/Aleeweb/full/qjYRBN/",
     title: "Open Weather Map API web app",
     description: "Converts temperature from Celsius to Fahrenheit. getJSON used to retrieve data."
   }
@@ -43,8 +44,7 @@ const cards = [
 const CodeCards = (props) => {
   const cardsList = cards.map(card => {
     return (
-
-      <Col sm="3" key={card.id}>
+      <Col sm="3" lg="3" key={card.id}>
         <a href={card.link} target="_blank" rel="noopener noreferrer" className="card-links">
           <Card className="hvr-shadow">
             <CardImg top width="100%" src={card.imageSrc} alt="Card image" className="hvr-shadow" />
@@ -55,7 +55,6 @@ const CodeCards = (props) => {
           </Card>
         </a>
       </Col>
-
     )
 
   })
@@ -64,10 +63,11 @@ const CodeCards = (props) => {
     <>
       <div id="slantbg"></div>
       <div className="card-wrap">
-
-        <Row>
-          {cardsList}
-        </Row>
+        <Flip top>
+          <Row>
+            {cardsList}
+          </Row>
+        </Flip>
       </div>
 
     </>
