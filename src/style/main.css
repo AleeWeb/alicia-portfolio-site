@@ -1,26 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
-
 html, body {
   height: 100%;
 }
 
 * {
   font-family: "PT Sans", sans-serif;
-  a {
-    text-decoration: none;
-  }
 }
 
-// Sub headline for body sections
+* a {
+  text-decoration: none;
+}
 
 .sub-header {
   font-weight: 400;
   font-size: 1.3em;
   color: #309;
 }
-
-
-// Code Portfolio Section
 
 #code {
   position: relative;
@@ -37,8 +32,6 @@ html, body {
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
-// Code Sample in Cards Section
 
 .card-wrap {
   position: relative;
@@ -84,7 +77,6 @@ html, body {
   color: #404040;
 }
 
-// Design portfolio section
 #design {
   min-height: 690px;
   margin-bottom: 80px;
@@ -122,8 +114,6 @@ html, body {
   top: 120px;
 }
 
-// About Me
-
 #me {
   min-height: 600px;
   margin-top: 20px;
@@ -133,8 +123,6 @@ html, body {
   width: 100%;
   margin-bottom: 20px;
 }
-
-// Footer
 
 .footer-icon {
   position: relative;
@@ -153,60 +141,40 @@ html, body {
   background: linear-gradient(181deg, #ef37ee, #5049e3, #00f);
   background-size: 600% 600%;
   -webkit-animation: FooterBanner 15s ease infinite;
-  -moz-animation: FooterBanner 15s ease infinite;
   animation: FooterBanner 15s ease infinite;
-  a {
-    color: #fff;
-    &:hover {
-      color: yellow;
-    }
-  }
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: yellow;
 }
 
 @-webkit-keyframes FooterBanner {
   0% {
     background-position: 0% 92%;
   }
-
   50% {
     background-position: 100% 9%;
   }
-
   100% {
     background-position: 0% 92%;
   }
 }
-
-
-@-moz-keyframes FooterBanner {
-  0% {
-    background-position: 0% 92%;
-  }
-
-  50% {
-    background-position: 100% 9%;
-  }
-
-  100% {
-    background-position: 0% 92%;
-  }
-}
-
 
 @keyframes FooterBanner {
   0% {
     background-position: 0% 92%;
   }
-
   50% {
     background-position: 100% 9%;
   }
-
   100% {
     background-position: 0% 92%;
   }
 }
-
 
 .coming-soon {
   position: relative;
@@ -215,8 +183,6 @@ html, body {
   top: 150px;
 }
 
-
-// Large screen tweaks
 @media (min-width: 1600px) {
   .left-shape, .right-shape {
     height: 60%;
@@ -230,17 +196,13 @@ html, body {
   .small-header {
     font-size: 1.4em;
   }
-
   #slantbg {
     min-height: 700px;
   }
-
   .card {
-
-  height: auto;
-  width: 100%;
+    height: auto;
+    width: 100%;
   }
-
   .card-title {
     margin-bottom: 0 !important;
   }
@@ -249,7 +211,6 @@ html, body {
   }
 }
 
-// Mobile portrait 
 @media (max-width: 576px) {
   .right-shape {
     visibility: hidden;
@@ -278,8 +239,9 @@ html, body {
   .row-wrap {
     margin-bottom: 40px !important;
   }
-
   .w-100 {
-    width: 100%!important; /* The default bootstrap causes carousel to jump in animation */
+    width: 100% !important;
+    /* The default bootstrap causes carousel to jump in animation */
   }
 }
+/*# sourceMappingURL=main.css.map */
