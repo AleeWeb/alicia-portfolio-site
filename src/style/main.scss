@@ -130,7 +130,6 @@ html, body {
 }
 
 #collagepic {
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -279,7 +278,8 @@ html, body {
     margin-bottom: 40px !important;
   }
 
-  .w-100 {
-    width: 100%!important; /* The default bootstrap causes carousel to jump in animation */
+  #collagepic {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

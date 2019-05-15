@@ -10,12 +10,8 @@ import Slide from 'react-reveal/Slide';
 const DesignPortfolio = () => {
     return (
         <Container id="design">
-            <Slide bottom>
-                <Row className="text-center">
-                    <Col sm="12">
-                        <iframe title="fitness-mobile-phone" idth="315" height="812" src="https://xd.adobe.com/embed/808859e1-43a2-4885-6355-cc74019c942c-f6b9/" frameBorder="0" allowFullScreen></iframe>
-                    </Col>
-                </Row>
+
+                <Slide bottom>
 
                 <Row>
                     {/* Start of Row 1 */}
