@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Row, Col } from "reactstrap";
+import NgMap from '../../images/cardthumb_angular_googlemaps.png';
 import JobHR from '../../images/cardthumb_djangohr.png';
-import TraveBuddy from '../../images/cardthumb_travelbuddy1.png';
 import CustomerRest from '../../images/cardthumb_customerapi.png';
 import OpenWeather from '../../images/cardthumb_openweather.png';
 import Flip from 'react-reveal/Flip';
@@ -11,17 +11,17 @@ import Flip from 'react-reveal/Flip';
 const cards = [
   {
     id: 1,
-    imageSrc: JobHR,
-    link: "https://django-hr-crudapp.herokuapp.com/",
-    title: "Django H.R. Job Management App",
-    description: "This is the basic C.R.U.D. app for managing job postings."
+    imageSrc: NgMap,
+    link: "https://github.com/AleeWeb/ang-google-maps",
+    title: "Angular IP API & Google Maps",
+    description: "A simple Angular 7 and ipapi.co API app that displays user location on Google maps."
   },
   {
     id: 2,
-    imageSrc: TraveBuddy,
-    link: "https://a-travel-buddy.herokuapp.com/accounts/login/?next=/travelhome",
-    title: "Django All-Auth Travel Dashboard Demo",
-    description: "User login throuhg Google or GitHub and manage trip plans."
+    imageSrc: JobHR,
+    link: "https://github.com/AleeWeb/django_hrjobapp",
+    title: "Django H.R. Job Management App",
+    description: "This is the basic C.R.U.D. app for managing job postings."
 
   },
   {

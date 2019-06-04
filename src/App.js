@@ -3,7 +3,7 @@ import './style/main.scss';
 import { TopNav } from './components/Nav';
 import Header from './components/Header/Header';
 import ServiceBlocks from './components/ServiceBlocks';
-/*import CodeCards from './components/Code/CodeCards';*/
+import CodeCards from './components/Code/CodeCards';
 import CodePortfolio from './components/Code/CodePortfolio';
 import DesignPortfolio from './components/Design/DesignPortfolio';
 import AboutMe from './components/AboutMe';
@@ -26,6 +26,7 @@ class App extends Component {
 
         <CodePortfolio />
 
+        <CodeCards />
 
         <DesignPortfolio />
 

@@ -57,11 +57,6 @@ const CodePortfolio = () => {
                     </Row>
                 </Fade>
 
-                <Row>
-
-                <h2 className="coming-soon">New Code Samples Coming Soon!</h2>
-                </Row>
-                
 
             </div>
         </Container>

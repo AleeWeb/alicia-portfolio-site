@@ -59,7 +59,7 @@ const Header = () => {
                 <Row>
                     <Col xs="9" sm="6" lg="5" style={headerTxtwrap}>
                         <h2 style={mainHeader}>Alicia Alexander</h2>
-                        <h3 style={bannerSubheader}>Software Developer and UI/UX Designer</h3>
+                        <h3 style={bannerSubheader}>Front-End Engineer and UI/UX Designer</h3>
                         <h5 style={smallHeader}>I love to design and code apps!</h5>
                     </Col>
 

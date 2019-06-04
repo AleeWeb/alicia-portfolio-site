@@ -180,7 +180,7 @@ const DesignPortfolio = () => {
                                     <div className="modal-header">
 
                                         <h5 className="modal-title" id="exampleModalLabel">
-                                            Avēsis Members Web Portal Pre-Login <br /> Page Design
+                                            Avēsis Members Web Portal Pre-Login <br /> Page Design and Front-End Code
                                                 </h5>
                                         <button
                                             type="button"
