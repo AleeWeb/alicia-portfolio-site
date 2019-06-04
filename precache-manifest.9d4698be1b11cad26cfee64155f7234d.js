@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "687c897c18393188ebff",
+    "revision": "8085ed3a3476ce87bb1b",
     "url": "/alicia-portfolio-site/static/css/main.a9a13d4a.chunk.css"
   },
   {
-    "revision": "687c897c18393188ebff",
-    "url": "/alicia-portfolio-site/static/js/main.2f891c6b.chunk.js"
+    "revision": "8085ed3a3476ce87bb1b",
+    "url": "/alicia-portfolio-site/static/js/main.9a6ce628.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "7851808c473b67afd7b1",
+    "revision": "341e980b741f3f4e36f8",
     "url": "/alicia-portfolio-site/static/css/2.32640a84.chunk.css"
   },
   {
-    "revision": "7851808c473b67afd7b1",
-    "url": "/alicia-portfolio-site/static/js/2.a297fdf0.chunk.js"
+    "revision": "341e980b741f3f4e36f8",
+    "url": "/alicia-portfolio-site/static/js/2.4d3e82fb.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -26,6 +26,22 @@ self.__precacheManifest = [
   {
     "revision": "5f98dc1eb09417e6484336881604bd63",
     "url": "/alicia-portfolio-site/static/media/header_rightblob1.5f98dc1e.png"
+  },
+  {
+    "revision": "04fee7fe6658f1742ccfca208e801c0a",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_angular_googlemaps.04fee7fe.png"
+  },
+  {
+    "revision": "66d8f4a3cbab21cee126d9f704b58163",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_djangohr.66d8f4a3.png"
+  },
+  {
+    "revision": "8e07cdf07d00334e8bdd1bfd984435d7",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_customerapi.8e07cdf0.png"
+  },
+  {
+    "revision": "ce8ab8ba7a53073aa4696727f76003af",
+    "url": "/alicia-portfolio-site/static/media/cardthumb_openweather.ce8ab8ba.png"
   },
   {
     "revision": "b512c62adf16c2d04c1d977f74f8ddad",
@@ -72,7 +88,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "c81d68b7bc759ad08699f326c74e90dd",
+    "revision": "8305fc5c014682c89fe2da8004ba1a59",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
