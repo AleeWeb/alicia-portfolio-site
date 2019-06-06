@@ -57,7 +57,7 @@ export class TopNav extends React.Component {
 
                 <NavItem>
                   <Scrollchor to="#summary" style={navLink}>
-                    What I Offer
+                    My Creative Process
                   </Scrollchor>
                 </NavItem>
 

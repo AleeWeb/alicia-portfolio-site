@@ -9,9 +9,9 @@ const AboutMe = () => {
             <Row>
                 <Col sm="12" className="text-center">
 
-                <img id="collagepic" src={meTravels} alt="Travel collage" />
-
                 <h3 className="sub-header featured-header">About Me</h3>
+
+                <img id="collagepic" src={meTravels} alt="Travel collage" />
 
                     <p>Hello. I have been working in web development since 2008. As technology has evolved, I have adapted and advanced with it.</p>
 

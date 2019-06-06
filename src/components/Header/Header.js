@@ -37,12 +37,6 @@ const mainHeader = {
     color: '#000'
 }
 
-const smallHeader = {
-    fonWeight: '400',
-    fontSize: '1.3em',
-    color: '#767373'
-}
-
 const bannerSubheader = {
     fontWeight: '400',
     fontSize: '1.3em',
@@ -60,7 +54,7 @@ const Header = () => {
                     <Col xs="9" sm="6" lg="5" style={headerTxtwrap}>
                         <h2 style={mainHeader}>Alicia Alexander</h2>
                         <h3 style={bannerSubheader}>Front-End Engineer and UI/UX Designer</h3>
-                        <h5 style={smallHeader}>I love to design and code apps!</h5>
+                        <h5 className="small-header">I love to design and code apps!</h5>
                     </Col>
 
                     <Col sm="6" lg="7">

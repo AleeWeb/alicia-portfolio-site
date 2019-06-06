@@ -5,7 +5,7 @@
 
 <img src="src/images/portfolio_animation.gif" alt="animated gif of new site banner"/>
 
-<h4>I'm using Yarn.</h4>
+<h4>I'm using Yarn. Two simple steps to run this:</h4>
 
 <ul>
 <li>yarn install</li>
