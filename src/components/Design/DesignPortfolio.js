@@ -11,8 +11,8 @@ import Slide from 'react-reveal/Slide';
 
 const verticalThumb = {
     position: 'relative',
-    height: 'auto',
-    paddingBottom: 20
+    height: '60%',
+    paddingBottom: 10
 }
 
 
@@ -26,16 +26,16 @@ const DesignPortfolio = () => {
     return (
         <Container id="design">
 
-<Row className="row" style={rowWrap}>
+<Row style={rowWrap}>
             <Col sm="12">
             <h2 className="sub-header featured-header">Design</h2>
             <h5 className="small-header">UI/UX prototypes and Mockup Samples</h5>
             </Col>
         </Row>
 
-        <Row className="row-wrap text-center">
+        <Row className="rowWrap text-center">
 
-                <Col sm="5">
+                <Col sm={{ size: 4, offset: 1 }}>
 
                     <a href="https://xd.adobe.com/view/b20e3eb9-b35e-46f8-5050-ba85e26e97ed-c43f/?fullscreen" target="_blank"  rel="noopener noreferrer"><img src={MobileCarousel} alt="Adobe XD Mobile carousel" style={verticalThumb} /></a>
 
@@ -44,7 +44,7 @@ const DesignPortfolio = () => {
                 </Col>
 
 
-                <Col sm="5">
+                <Col sm={{ size: 4, offset: 1 }}>
 
 <a href="https://xd.adobe.com/view/0251be7d-470b-4286-4642-a44227071a64-7460/?fullscreen" target="_blank" rel="noopener noreferrer"><img src={ThumbAnim} alt="Adobe XD Mobile Thumb Animation" style={verticalThumb} /></a>
 
@@ -52,8 +52,7 @@ const DesignPortfolio = () => {
 </Col>
 
             </Row>
-
-        
+                
 
                 <Slide bottom>
 
