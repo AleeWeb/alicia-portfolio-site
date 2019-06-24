@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "f8e2f1647f763753fe6e",
+    "revision": "7d37f9dc1b8a4da8e603",
     "url": "/alicia-portfolio-site/static/css/main.5358c4a6.chunk.css"
   },
   {
-    "revision": "f8e2f1647f763753fe6e",
-    "url": "/alicia-portfolio-site/static/js/main.bb036b5b.chunk.js"
+    "revision": "7d37f9dc1b8a4da8e603",
+    "url": "/alicia-portfolio-site/static/js/main.30f93989.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "1f900a30142abd0e8b20",
+    "revision": "f97b4fe03a3cfddc6920",
     "url": "/alicia-portfolio-site/static/css/2.32640a84.chunk.css"
   },
   {
-    "revision": "1f900a30142abd0e8b20",
-    "url": "/alicia-portfolio-site/static/js/2.7a9731bd.chunk.js"
+    "revision": "f97b4fe03a3cfddc6920",
+    "url": "/alicia-portfolio-site/static/js/2.b8aeacd6.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -52,12 +52,8 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/mdptoolbox.a759390d.gif"
   },
   {
-    "revision": "063e536c3c01b55c67a283f9ae93e5d0",
-    "url": "/alicia-portfolio-site/static/media/mobile_thumb_animation.063e536c.gif"
-  },
-  {
-    "revision": "331949e8c46a4937f5455c29ce60db11",
-    "url": "/alicia-portfolio-site/static/media/mobile_carousel.331949e8.gif"
+    "revision": "a05d74e4f3410ca8da5ce92a88b27189",
+    "url": "/alicia-portfolio-site/static/media/iphone_appcarousel_prototype.a05d74e4.png"
   },
   {
     "revision": "4a70cf9f8f0fc6fc00f33f090c9de68c",
@@ -96,7 +92,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "343608ed9f23c2b81e9720b1199ba82f",
+    "revision": "23844aad23243fabd0ce1206fcf907b9",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
