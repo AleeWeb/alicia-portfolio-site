@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
-import ThumbAnim from '../../images/mobile_thumb_animation.gif';
-import MobileCarousel from '../../images/mobile_carousel.gif';
+import MobileCarousel from '../../images/iphone_appcarousel_prototype.png';
 import AvesisHome from '../../images/thumb_avesis_home.jpg';
 import WahaThumb from '../../images/thumb_waha.jpg';
 import AvesisBrokers from '../../images/thumb_brokers.jpg';
@@ -12,7 +11,7 @@ import Slide from 'react-reveal/Slide';
 const verticalThumb = {
     position: 'relative',
     height: '60%',
-    paddingBottom: 10
+    paddingBottom: 10,
 }
 
 
@@ -25,37 +24,23 @@ const rowWrap = {
 const DesignPortfolio = () => {
     return (
         <Container id="design">
+            <Row style={rowWrap}>
+                <Col sm="12">
+                    <h2 className="sub-header featured-header">Design</h2>
+                    <h5 className="small-header">UI/UX prototypes and Mockup Samples</h5>
+                </Col>
+            </Row>
 
-<Row style={rowWrap}>
-            <Col sm="12">
-            <h2 className="sub-header featured-header">Design</h2>
-            <h5 className="small-header">UI/UX prototypes and Mockup Samples</h5>
-            </Col>
-        </Row>
+            <Row className="rowWrap text-center">
+                <Col sm={{ size: 12 }}>
+                    <a href="https://xd.adobe.com/view/54a7cdb4-310f-46d3-7496-b45cf4561a28-2296/?fullscreen" target="_blank" rel="noopener noreferrer"><img src={MobileCarousel} alt="Adobe XD Mobile carousel" style={verticalThumb} /></a>
 
-        <Row className="rowWrap text-center">
-
-                <Col sm={{ size: 4, offset: 1 }}>
-
-                    <a href="https://xd.adobe.com/view/b20e3eb9-b35e-46f8-5050-ba85e26e97ed-c43f/?fullscreen" target="_blank"  rel="noopener noreferrer"><img src={MobileCarousel} alt="Adobe XD Mobile carousel" style={verticalThumb} /></a>
-
-                    <p><a href="https://xd.adobe.com/view/b20e3eb9-b35e-46f8-5050-ba85e26e97ed-c43f/?fullscreen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="globe-americas" /> View Clickable Prototype Online</a></p>
+                    <p><a href="https://xd.adobe.com/view/54a7cdb4-310f-46d3-7496-b45cf4561a28-2296/?fullscreen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="globe-americas" /> View Clickable Prototype Online</a></p>
 
                 </Col>
-
-
-                <Col sm={{ size: 4, offset: 1 }}>
-
-<a href="https://xd.adobe.com/view/0251be7d-470b-4286-4642-a44227071a64-7460/?fullscreen" target="_blank" rel="noopener noreferrer"><img src={ThumbAnim} alt="Adobe XD Mobile Thumb Animation" style={verticalThumb} /></a>
-
-<p><a href="https://xd.adobe.com/view/0251be7d-470b-4286-4642-a44227071a64-7460/?fullscreen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="globe-americas" /> View Clickable Prototype Online</a></p>
-</Col>
-
             </Row>
-                
 
-                <Slide bottom>
-
+            <Slide bottom>
                 <Row>
                     {/* Start of Row 1 */}
                     <Col sm="4" lg="5">
