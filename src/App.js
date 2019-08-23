@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './style/main.scss';
 import { TopNav } from './components/Nav';
 import Header from './components/Header/Header';
-import ServiceBlocks from './components/ServiceBlocks';
 import CodeCards from './components/Code/CodeCards';
 import CodePortfolio from './components/Code/CodePortfolio';
 import DesignPortfolio from './components/Design/DesignPortfolio';
@@ -21,8 +20,6 @@ class App extends Component {
         <TopNav />
 
         <Header />
-
-        <ServiceBlocks />
 
         <CodePortfolio />
 

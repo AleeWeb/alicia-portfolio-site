@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import MobileCarousel from '../../images/iphone_appcarousel_prototype.png';
-import AvesisHome from '../../images/thumb_avesis_home.jpg';
-import WahaThumb from '../../images/thumb_waha.jpg';
-import AvesisBrokers from '../../images/thumb_brokers.jpg';
-import AvesisMembers from '../../images/thumb_members.jpg';
+import AvesisHome from '../../images/thumb_homeredesignv2.jpg';
+import WahaThumb from '../../images/thumba_wahahv2.jpg';
+import AvesisBrokers from '../../images/thumb_brokersv2.jpg';
+import AvesisMembers from '../../images/thumb_members_v2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slide from 'react-reveal/Slide';
 
@@ -25,9 +25,9 @@ const DesignPortfolio = () => {
     return (
         <Container id="design">
             <Row style={rowWrap}>
-                <Col sm="12">
+                <Col sm={{ size: 12 }}>
                     <h2 className="sub-header featured-header">Design</h2>
-                    <h5 className="small-header">UI/UX prototypes and Mockup Samples</h5>
+                    <h5 className="small-header">UI/UX Prototype and Mockup Samples</h5>
                 </Col>
             </Row>
 
@@ -41,200 +41,202 @@ const DesignPortfolio = () => {
             </Row>
 
             <Slide bottom>
-                <Row>
-                    {/* Start of Row 1 */}
-                    <Col sm="4" lg="5">
-                        <img
-                            src={AvesisHome}
-                            className="hvr-grow-shadow designpic"
-                            data-toggle="modal"
-                            data-target="#avesis1"
-                            alt="pic"
-                        />
+                <Col sm={{ size: 12 }}>
 
-                        <div
-                            className="modal fade"
-                            id="avesis1"
-                            tabIndex="-1"
-                            role="dialog"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
-                        >
-                            <div className="modal-dialog" role="document">
-                                <div className="modal-content">
-                                    <div className="modal-header">
+                    <Row>
+                        {/* Start of Row 1 */}
+                        <Col sm="4" lg="6">
+                            <img
+                                src={AvesisHome}
+                                className="hvr-grow-shadow designpic"
+                                data-toggle="modal"
+                                data-target="#avesis1"
+                                alt="pic"
+                            />
 
-                                        <h5 className="modal-title" id="exampleModalLabel">
-                                            Avēsis Homepage Redesign Proposal
+                            <div
+                                className="modal fade"
+                                id="avesis1"
+                                tabIndex="-1"
+                                role="dialog"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog" role="document">
+                                    <div className="modal-content">
+                                        <div className="modal-header">
+
+                                            <h5 className="modal-title" id="exampleModalLabel">
+                                                Avēsis Homepage Redesign Proposal
                                                 </h5>
-                                        <button
-                                            type="button"
-                                            className="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
+                                            <button
+                                                type="button"
+                                                className="close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                            >
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
 
-                                    <div className="modal-body">
+                                        <div className="modal-body">
 
-                                        <img src={require('../../images/design_avesis_home.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
+                                            <img src={require('../../images/thumb_homeredesignv2.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
 
-                                        <p className="modal-txt">
-                                            This project was a design <strong>and</strong> code presentation for a possible homepage redesign. The top navigation
-                                            icons animated on mouse hover and were anchor links that had a smooth scroll to the lower sections for easy
-                                            user experience.
+                                            <p className="modal-txt">
+                                                This project was a design <strong>and</strong> code presentation for a possible homepage redesign. The top navigation
+                                                icons animated on mouse hover and were anchor links that had a smooth scroll to the lower sections for easy
+                                                user experience.
                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
+                        </Col>
 
 
-                    <Col sm="4" lg="5">
-                        <img
-                            src={WahaThumb}
-                            className="hvr-grow-shadow designpic"
-                            data-toggle="modal"
-                            data-target="#waha"
-                            alt="pic"
-                        />
+                        <Col sm="4" lg="6">
+                            <img
+                                src={WahaThumb}
+                                className="hvr-grow-shadow designpic"
+                                data-toggle="modal"
+                                data-target="#waha"
+                                alt="pic"
+                            />
 
-                        <div
-                            className="modal fade"
-                            id="waha"
-                            tabIndex="-1"
-                            role="dialog"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
-                        >
-                            <div className="modal-dialog" role="document">
-                                <div className="modal-content">
-                                    <div className="modal-header">
+                            <div
+                                className="modal fade"
+                                id="waha"
+                                tabIndex="-1"
+                                role="dialog"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog" role="document">
+                                    <div className="modal-content">
+                                        <div className="modal-header">
 
-                                        <h5 className="modal-title" id="exampleModalLabel">
-                                            Wisconsin Amateur Hockey Association <br />Design Mock-up
+                                            <h5 className="modal-title" id="exampleModalLabel">
+                                                Wisconsin Amateur Hockey Association <br />Design Mock-up
                                                 </h5>
-                                        <button
-                                            type="button"
-                                            className="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
+                                            <button
+                                                type="button"
+                                                className="close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                            >
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
 
-                                    <div className="modal-body">
+                                        <div className="modal-body">
 
-                                        <img src={require('../../images/design_waha.jpg')} alt="Wisconsin Amateur Hockey Association Redesign Mockup" width="100%" />
+                                            <img src={require('../../images/design_waha.jpg')} alt="Wisconsin Amateur Hockey Association Redesign Mockup" width="100%" />
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
-                </Row>    {/* End of Row 1  */}
+                        </Col>
+                    </Row>    {/* End of Row 1  */}
 
 
-                <Row>
-                    {/* Start of Row 1 */}
-                    <Col sm="4" lg="5">
-                        <img
-                            src={AvesisBrokers}
-                            className="hvr-grow-shadow designpic"
-                            data-toggle="modal"
-                            data-target="#broker"
-                            alt="pic"
-                        />
+                    <Row>
+                        {/* Start of Row 1 */}
+                        <Col sm="4" lg="6">
+                            <img
+                                src={AvesisBrokers}
+                                className="hvr-grow-shadow designpic"
+                                data-toggle="modal"
+                                data-target="#broker"
+                                alt="pic"
+                            />
 
-                        <div
-                            className="modal fade"
-                            id="broker"
-                            tabIndex="-1"
-                            role="dialog"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
-                        >
-                            <div className="modal-dialog" role="document">
-                                <div className="modal-content">
-                                    <div className="modal-header">
+                            <div
+                                className="modal fade"
+                                id="broker"
+                                tabIndex="-1"
+                                role="dialog"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog" role="document">
+                                    <div className="modal-content">
+                                        <div className="modal-header">
 
-                                        <h5 className="modal-title" id="exampleModalLabel">
-                                            Avēsis Broker Web Portal Pre-login Design
+                                            <h5 className="modal-title" id="exampleModalLabel">
+                                                Avēsis Broker Web Portal Pre-login Design
                                                 </h5>
-                                        <button
-                                            type="button"
-                                            className="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
+                                            <button
+                                                type="button"
+                                                className="close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                            >
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
 
-                                    <div className="modal-body">
+                                        <div className="modal-body">
 
-                                        <img src={require('../../images/design_brokers.jpg')} alt="Avesis Brokers Pre-login Design" width="100%" />
+                                            <img src={require('../../images/design_brokers.jpg')} alt="Avesis Brokers Pre-login Design" width="100%" />
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
+                        </Col>
 
 
-                    <Col sm="4" lg="5">
-                        <img
-                            src={AvesisMembers}
-                            className="hvr-grow-shadow designpic"
-                            data-toggle="modal"
-                            data-target="#members"
-                            alt="pic"
-                        />
+                        <Col sm="4" lg="6">
+                            <img
+                                src={AvesisMembers}
+                                className="hvr-grow-shadow designpic"
+                                data-toggle="modal"
+                                data-target="#members"
+                                alt="pic"
+                            />
 
-                        <div
-                            className="modal fade"
-                            id="members"
-                            tabIndex="-1"
-                            role="dialog"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
-                        >
-                            <div className="modal-dialog" role="document">
-                                <div className="modal-content">
-                                    <div className="modal-header">
+                            <div
+                                className="modal fade"
+                                id="members"
+                                tabIndex="-1"
+                                role="dialog"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog" role="document">
+                                    <div className="modal-content">
+                                        <div className="modal-header">
 
-                                        <h5 className="modal-title" id="exampleModalLabel">
-                                            Avēsis Members Web Portal Pre-Login <br /> Page Design and Front-End Code
+                                            <h5 className="modal-title" id="exampleModalLabel">
+                                                Avēsis Members Web Portal Pre-Login <br /> Page Design and Front-End Code
                                                 </h5>
-                                        <button
-                                            type="button"
-                                            className="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
+                                            <button
+                                                type="button"
+                                                className="close"
+                                                data-dismiss="modal"
+                                                aria-label="Close"
+                                            >
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
 
-                                    <div className="modal-body">
+                                        <div className="modal-body">
 
-                                        <img src={require('../../images/design_members.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
+                                            <img src={require('../../images/design_members.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
 
 
-                                        <p className="text-center modal-txt">
-                                            <a href="https://www.avesis.com/commercial3/members/index.aspx" target="_blank" rel="noopener noreferrer">View the Members Portal Login Page in the Browser</a>
-                                        </p>
+                                            <p className="text-center modal-txt">
+                                                <a href="https://www.avesis.com/commercial3/members/index.aspx" target="_blank" rel="noopener noreferrer">View the Members Portal Login Page in the Browser</a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
-
-                </Row>    {/* End of Row 1  */}
+                        </Col>
+                    </Row>
+                </Col>{/* Outer column to wrap content for centering */}
             </Slide>
         </Container>
     )

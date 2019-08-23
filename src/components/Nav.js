@@ -55,11 +55,13 @@ export class TopNav extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
 
-                <NavItem>
+               {/* Future skills section
+               
+               <NavItem>
                   <Scrollchor to="#summary" style={navLink}>
-                    My Creative Process
+                    Skills
                   </Scrollchor>
-                </NavItem>
+               </NavItem>*/}
 
                 <NavItem>
                   <Scrollchor to="#code" style={navLink}>
