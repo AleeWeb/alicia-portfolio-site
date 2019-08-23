@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "d6aa8d91533ed65493ac",
-    "url": "/alicia-portfolio-site/static/css/main.5358c4a6.chunk.css"
+    "revision": "d434559bf9dade2f8136",
+    "url": "/alicia-portfolio-site/static/css/main.1763b56e.chunk.css"
   },
   {
-    "revision": "d6aa8d91533ed65493ac",
-    "url": "/alicia-portfolio-site/static/js/main.7926e595.chunk.js"
+    "revision": "d434559bf9dade2f8136",
+    "url": "/alicia-portfolio-site/static/js/main.6f89e789.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "f97b4fe03a3cfddc6920",
-    "url": "/alicia-portfolio-site/static/css/2.32640a84.chunk.css"
+    "revision": "63660ecde9e1b1c0736d",
+    "url": "/alicia-portfolio-site/static/css/2.df79925d.chunk.css"
   },
   {
-    "revision": "f97b4fe03a3cfddc6920",
-    "url": "/alicia-portfolio-site/static/js/2.b8aeacd6.chunk.js"
+    "revision": "63660ecde9e1b1c0736d",
+    "url": "/alicia-portfolio-site/static/js/2.b5a209a3.chunk.js"
+  },
+  {
+    "revision": "8754627cc6b80b87c696b0ad873d7ac5",
+    "url": "/alicia-portfolio-site/static/media/thumb_homeredesignv2.8754627c.jpg"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -56,28 +60,20 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/iphone_appcarousel_prototype.a05d74e4.png"
   },
   {
-    "revision": "4a70cf9f8f0fc6fc00f33f090c9de68c",
-    "url": "/alicia-portfolio-site/static/media/thumb_avesis_home.4a70cf9f.jpg"
+    "revision": "7951166ee3213aa268dd37f7f9a96473",
+    "url": "/alicia-portfolio-site/static/media/thumba_wahahv2.7951166e.jpg"
   },
   {
-    "revision": "cee653251237c815f0ba9c34cefa0ffe",
-    "url": "/alicia-portfolio-site/static/media/thumb_waha.cee65325.jpg"
+    "revision": "d4090f8e80f99962f579754ac4603bcd",
+    "url": "/alicia-portfolio-site/static/media/thumb_brokersv2.d4090f8e.jpg"
   },
   {
-    "revision": "9dab3b0fc92e74b7cfe5453c7d814a7e",
-    "url": "/alicia-portfolio-site/static/media/thumb_brokers.9dab3b0f.jpg"
-  },
-  {
-    "revision": "58501a10ba1c2d9528e46a42a0a1b22c",
-    "url": "/alicia-portfolio-site/static/media/thumb_members.58501a10.jpg"
+    "revision": "3f86a392c56f631b09c5a3255836bc9c",
+    "url": "/alicia-portfolio-site/static/media/thumb_members_v2.3f86a392.jpg"
   },
   {
     "revision": "ac0d2a47072e858e562d2b96b4610425",
     "url": "/alicia-portfolio-site/static/media/me_travels.ac0d2a47.jpg"
-  },
-  {
-    "revision": "ad7fdc59d0796b766a88eea2f39143dd",
-    "url": "/alicia-portfolio-site/static/media/design_avesis_home.ad7fdc59.jpg"
   },
   {
     "revision": "838b4b605718e39fc35bdedf5ba016ad",
@@ -92,7 +88,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "0253e679fb1a67697684fcb0a15c462a",
+    "revision": "57e15ec9106399c354c7dd3c688f0336",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
