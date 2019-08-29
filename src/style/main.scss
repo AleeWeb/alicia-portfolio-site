@@ -1,3 +1,6 @@
+
+@import "./variables";
+
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
 
 html, body {
@@ -16,13 +19,13 @@ html, body {
 .sub-header {
   font-weight: 400;
   font-size: 1.3em;
-  color: #309;
+  color: $darkPurple;
 }
 
-.small-header {
+.phrase-header {
   font-weight: 400;
   font-size: 1.3em;
-  color: #767373;
+  color: $mediumLightGrey;
 }
 
 
@@ -153,7 +156,7 @@ html, body {
   left: 0;
   top: 0;
   bottom: 0;
-  color: #fff;
+  color: $white;
   padding-top: 20px;
   background: linear-gradient(181deg, #ef37ee, #5049e3, #00f);
   background-size: 600% 600%;
@@ -161,7 +164,7 @@ html, body {
   -moz-animation: FooterBanner 15s ease infinite;
   animation: FooterBanner 15s ease infinite;
   a {
-    color: #fff;
+    color: $white;
     &:hover {
       color: yellow;
     }
@@ -216,7 +219,7 @@ html, body {
 .coming-soon {
   position: relative;
   margin: 0 auto;
-  color: #767373;
+  color: $mediumLightGrey;
   top: 150px;
 }
 
