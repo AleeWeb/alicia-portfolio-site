@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "d434559bf9dade2f8136",
-    "url": "/alicia-portfolio-site/static/css/main.1763b56e.chunk.css"
+    "revision": "20b6f73dde4d14ed39a7",
+    "url": "/alicia-portfolio-site/static/css/main.502c532f.chunk.css"
   },
   {
-    "revision": "d434559bf9dade2f8136",
-    "url": "/alicia-portfolio-site/static/js/main.6f89e789.chunk.js"
+    "revision": "20b6f73dde4d14ed39a7",
+    "url": "/alicia-portfolio-site/static/js/main.e8ebf21e.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "63660ecde9e1b1c0736d",
+    "revision": "8d0b85c442f3d16349eb",
     "url": "/alicia-portfolio-site/static/css/2.df79925d.chunk.css"
   },
   {
-    "revision": "63660ecde9e1b1c0736d",
-    "url": "/alicia-portfolio-site/static/js/2.b5a209a3.chunk.js"
+    "revision": "8d0b85c442f3d16349eb",
+    "url": "/alicia-portfolio-site/static/js/2.7fd611d0.chunk.js"
   },
   {
     "revision": "8754627cc6b80b87c696b0ad873d7ac5",
@@ -48,12 +48,16 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/cardthumb_openweather.ce8ab8ba.png"
   },
   {
+    "revision": "555065474342c44cf062ba9ab6fcb676",
+    "url": "/alicia-portfolio-site/static/media/reactd3_firebasedash.55506547.jpg"
+  },
+  {
     "revision": "b512c62adf16c2d04c1d977f74f8ddad",
     "url": "/alicia-portfolio-site/static/media/techreview.b512c62a.gif"
   },
   {
-    "revision": "a759390d17c9cc7bd9cc85191388419a",
-    "url": "/alicia-portfolio-site/static/media/mdptoolbox.a759390d.gif"
+    "revision": "0020ab914a60e1b2e273ff47c7e2fc2e",
+    "url": "/alicia-portfolio-site/static/media/mdptoolbox.0020ab91.jpg"
   },
   {
     "revision": "a05d74e4f3410ca8da5ce92a88b27189",
@@ -88,7 +92,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "57e15ec9106399c354c7dd3c688f0336",
+    "revision": "9f62e0a0ab2cecec00bb7fc500ef853b",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
