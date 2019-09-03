@@ -34,7 +34,7 @@ html, body {
 
 #code {
   position: relative;
-  min-height: 1200px;
+  height: 1600px;
 }
 
 .featured-header {
@@ -73,7 +73,7 @@ html, body {
 .row-wrap {
   position: relative;
   margin-top: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 90px;
 }
 
 .card {
@@ -224,6 +224,13 @@ html, body {
 }
 
 
+@media only screen and (max-width: 1280px) and (min-width: 1200px){
+#code {
+  height: 1200px;
+}
+}
+
+
 // Large screen tweaks
 @media (min-width: 1600px) {
   .left-shape, .right-shape {
@@ -239,12 +246,15 @@ html, body {
     font-size: 1.4em;
   }
 
+  .row-wrap { 
+    margin-bottom: 120px;
+  }
+
   #slantbg {
     min-height: 700px;
   }
 
   .card {
-
   height: auto;
   width: 100%;
   }
