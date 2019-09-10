@@ -81,7 +81,7 @@ const DesignPortfolio = () => {
 
                                         <div className="modal-body">
 
-                                            <img src={require('../../images/thumb_homeredesignv2.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
+                                            <img src={require('../../images/design_avesis_home.jpg')} alt="Avesis Home Redesign Mockup Proposal" width="100%" />
 
                                             <p className="modal-txt">
                                                 This project was a design <strong>and</strong> code presentation for a possible homepage redesign. The top navigation
