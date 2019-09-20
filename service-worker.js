@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/alicia-portfolio-site/precache-manifest.15209b3a3047e851bba9f713e1940472.js"
+  "/alicia-portfolio-site/precache-manifest.cbe266f086d0f2322ef3c24932c9d296.js"
 );
 
 workbox.clientsClaim();
