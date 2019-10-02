@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
-import MobileCarousel from '../../images/iphone_appcarousel_prototype.png';
+//import MobileCarousel from '../../images/iphone_appcarousel_prototype.png';
 import AvesisHome from '../../images/thumb_homeredesignv2.jpg';
 import WahaThumb from '../../images/thumba_wahahv2.jpg';
 import AvesisBrokers from '../../images/thumb_brokersv2.jpg';
 import AvesisMembers from '../../images/thumb_members_v2.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slide from 'react-reveal/Slide';
 
 const verticalThumb = {
@@ -30,7 +30,7 @@ const DesignPortfolio = () => {
                     <h5 className="small-header">UI/UX Prototype and Mockup Samples</h5>
                 </Col>
             </Row>
-
+{/* Temporarily hide - link is down
             <Row className="rowWrap text-center">
                 <Col sm={{ size: 12 }}>
                     <a href="https://xd.adobe.com/view/54a7cdb4-310f-46d3-7496-b45cf4561a28-2296/?fullscreen" target="_blank" rel="noopener noreferrer"><img src={MobileCarousel} alt="Adobe XD Mobile carousel" style={verticalThumb} /></a>
@@ -38,7 +38,7 @@ const DesignPortfolio = () => {
                     <p><a href="https://xd.adobe.com/view/54a7cdb4-310f-46d3-7496-b45cf4561a28-2296/?fullscreen" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="globe-americas" /> View Clickable Prototype Online</a></p>
 
                 </Col>
-            </Row>
+</Row> */}
 
             <Slide bottom>
                 <Col sm={{ size: 12 }}>
