@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "238d929cc84e5a8814a0",
-    "url": "/alicia-portfolio-site/static/css/main.2ba8f20c.chunk.css"
+    "revision": "b34a566f76734cda38f5",
+    "url": "/alicia-portfolio-site/static/css/main.30780337.chunk.css"
   },
   {
-    "revision": "238d929cc84e5a8814a0",
-    "url": "/alicia-portfolio-site/static/js/main.a880a0c7.chunk.js"
+    "revision": "b34a566f76734cda38f5",
+    "url": "/alicia-portfolio-site/static/js/main.3b54ba1b.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "099f159aaaa03f905303",
-    "url": "/alicia-portfolio-site/static/css/2.df79925d.chunk.css"
+    "revision": "a2bae3b313e334fe7971",
+    "url": "/alicia-portfolio-site/static/css/2.acf53856.chunk.css"
   },
   {
-    "revision": "099f159aaaa03f905303",
-    "url": "/alicia-portfolio-site/static/js/2.28810db9.chunk.js"
+    "revision": "a2bae3b313e334fe7971",
+    "url": "/alicia-portfolio-site/static/js/2.0b290d75.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "40a6c536e9f4c9132aafaa2a673a9c1a",
+    "revision": "d529dddf0b6f7567b75fd15637a2b85e",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
