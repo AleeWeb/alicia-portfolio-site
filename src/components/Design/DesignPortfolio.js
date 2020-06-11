@@ -27,7 +27,7 @@ const DesignPortfolio = () => {
             <Row style={rowWrap}>
                 <Col sm={{ size: 12 }}>
                     <h2 className="sub-header featured-header">Design</h2>
-                    <h5 className="small-header">UI/UX Prototype and Mockup Samples</h5>
+                    
                 </Col>
             </Row>
 {/* Temporarily hide - link is down
