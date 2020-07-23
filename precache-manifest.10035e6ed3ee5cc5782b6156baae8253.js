@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "e9150771ea7c24482f16",
+    "revision": "25a9e7979dbca5f51591",
     "url": "/alicia-portfolio-site/static/css/main.30780337.chunk.css"
   },
   {
-    "revision": "e9150771ea7c24482f16",
-    "url": "/alicia-portfolio-site/static/js/main.115419f1.chunk.js"
+    "revision": "25a9e7979dbca5f51591",
+    "url": "/alicia-portfolio-site/static/js/main.95626061.chunk.js"
   },
   {
     "revision": "9ade62fe3da9d6dbff0d",
     "url": "/alicia-portfolio-site/static/js/runtime~main.8fae3027.js"
   },
   {
-    "revision": "a2bae3b313e334fe7971",
+    "revision": "a6a6919d374156a29018",
     "url": "/alicia-portfolio-site/static/css/2.acf53856.chunk.css"
   },
   {
-    "revision": "a2bae3b313e334fe7971",
-    "url": "/alicia-portfolio-site/static/js/2.0b290d75.chunk.js"
+    "revision": "a6a6919d374156a29018",
+    "url": "/alicia-portfolio-site/static/js/2.e1621a25.chunk.js"
   },
   {
     "revision": "e065c0ebe4716e9ac210ff29f9117a22",
@@ -26,26 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "5f98dc1eb09417e6484336881604bd63",
     "url": "/alicia-portfolio-site/static/media/header_rightblob1.5f98dc1e.png"
-  },
-  {
-    "revision": "04fee7fe6658f1742ccfca208e801c0a",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_angular_googlemaps.04fee7fe.png"
-  },
-  {
-    "revision": "66d8f4a3cbab21cee126d9f704b58163",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_djangohr.66d8f4a3.png"
-  },
-  {
-    "revision": "8e07cdf07d00334e8bdd1bfd984435d7",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_customerapi.8e07cdf0.png"
-  },
-  {
-    "revision": "ce8ab8ba7a53073aa4696727f76003af",
-    "url": "/alicia-portfolio-site/static/media/cardthumb_openweather.ce8ab8ba.png"
-  },
-  {
-    "revision": "555065474342c44cf062ba9ab6fcb676",
-    "url": "/alicia-portfolio-site/static/media/reactd3_firebasedash.55506547.jpg"
   },
   {
     "revision": "b512c62adf16c2d04c1d977f74f8ddad",
@@ -92,7 +72,7 @@ self.__precacheManifest = [
     "url": "/alicia-portfolio-site/static/media/design_members.e799c864.jpg"
   },
   {
-    "revision": "ddd33bb307f31e32c38fd892a6f6a165",
+    "revision": "f625ac93bd71699f6f9109e44f58d66e",
     "url": "/alicia-portfolio-site/index.html"
   }
 ];
