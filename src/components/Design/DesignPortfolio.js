@@ -8,12 +8,6 @@ import AvesisMembers from '../../images/thumb_members_v2.jpg';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slide from 'react-reveal/Slide';
 
-const verticalThumb = {
-    position: 'relative',
-    height: '60%',
-    paddingBottom: 10,
-}
-
 
 const rowWrap = {
     marginBottom: 20,
@@ -27,7 +21,7 @@ const DesignPortfolio = () => {
             <Row style={rowWrap}>
                 <Col sm={{ size: 12 }}>
                     <h2 className="sub-header featured-header">Design</h2>
-                    
+                   
                 </Col>
             </Row>
 {/* Temporarily hide - link is down

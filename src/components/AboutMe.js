@@ -13,10 +13,10 @@ const AboutMe = () => {
 
                 <img id="collagepic" src={meTravels} alt="Travel collage" />
 
-                    <p>Hello. I have been working in web development since 2008. As technology has evolved, I have adapted and advanced with it.</p>
+                    <p>Hello. I have been working in design and tech since 2008. As technology has evolved, I have adapted and advanced with it.</p>
 
-                    <p>I primarily have experience with design and working in the front-end over the years and I enjoy bringing design concepts to
-                        life through code. My goal is to always keep growing as a professional.</p>
+                    <p>I primarily have experience with design and I enjoy bringing design concepts to
+                        life. My goal is to always keep growing as a professional.</p>
 
                 </Col>
                 </Row>

@@ -53,8 +53,8 @@ const Header = () => {
                 <Row>
                     <Col xs="9" sm="6" lg="5" style={headerTxtwrap}>
                         <h2 style={mainHeader}>Alicia Alexander</h2>
-                        <h3 style={bannerSubheader}>UI Developer and UI/UX Designer</h3>
-                        <h5 className="phrase-header">Software Design</h5>
+                        <h3 style={bannerSubheader}>Software UI Designer</h3>
+                        <h5 className="phrase-header">Websites, Web and Mobile Applications</h5>
                     </Col>
 
                     <Col sm="6" lg="7">

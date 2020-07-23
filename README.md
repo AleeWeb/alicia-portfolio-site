@@ -3,8 +3,6 @@
 
 <p>React portfolio developed with a <em>fresh</em> new design layout, styled components, Reactstrap, React fragments, onScroll animations using React Reveal, SASS and More!</p>
 
-<img src="src/images/portfolio_animation.gif" alt="animated gif of new site banner"/>
-
 <h4>I'm using Yarn. Two simple steps to run this:</h4>
 
 <ul>
